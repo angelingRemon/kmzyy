@@ -1,0 +1,306 @@
+{
+	"pages": [
+		//start主要底部页面连接
+		{
+			"path": "pages/home/home",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/home/hospitalInfo",
+			"style": {
+				"navigationBarTitleText": "医院信息",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/home/mapInfo",
+			"style": {
+				"navigationBarTitleText": "线路规划"
+			}
+		}, {
+			"path": "pages/my/mycenter",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00daca"
+					}
+				}
+			}
+		},
+		//end 主要底部页面连接
+
+
+		//start首页公告信息
+		{
+			"path": "pages/home/news/dbxz-list",
+			"style": {
+				"navigationBarTitleText": "冬病夏治",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/home/news/dbxz-detail",
+			"style": {
+				"navigationBarTitleText": "冬病夏治"
+			}
+		}, {
+			"path": "pages/home/news/jyzn-list",
+			"style": {
+				"navigationBarTitleText": "就医指南",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/home/news/jyzn-detail",
+			"style": {
+				"navigationBarTitleText": "就医指南"
+			}
+		}, {
+			"path": "pages/home/news/xwdt-list",
+			"style": {
+				"navigationBarTitleText": "新闻动态",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/home/news/xwdt-detail",
+			"style": {
+				"navigationBarTitleText": "新闻动态"
+			}
+		}, {
+			"path": "pages/home/news/sybz-list",
+			"style": {
+				"navigationBarTitleText": "使用帮助",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/home/news/sybz-detail",
+			"style": {
+				"navigationBarTitleText": "使用帮助"
+			}
+		}, {
+			"path": "pages/home/news/lcdh-list",
+			"style": {
+				"navigationBarTitleText": "楼层导航",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/home/news/lcdh-detail",
+			"style": {
+				"navigationBarTitleText": "楼层导航"
+			}
+		}
+		//end首页公告信息
+		//调查问卷
+		, {
+			"path": "pages/survey/survey",
+			"style": {
+				"navigationBarTitleText": "调查问卷"
+			}
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "医院概况"
+			}
+		}, {
+			"path": "pages/registerList/registerList",
+			"style": {
+				"navigationBarTitleText": "挂号记录",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/registerList/registerListDetails",
+			"style": {
+				"navigationBarTitleText": "挂号详情"
+			}
+		}, {
+			"path": "pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "挂号支付"
+			}
+		}, {
+			"path": "pages/patient/patient",
+			"style": {
+				"navigationBarTitleText": "我的就诊人"
+			}
+		}, {
+			"path": "pages/patient/patientDetails",
+			"style": {
+				"navigationBarTitleText": "就诊人详情"
+			}
+		}, {
+			"path": "pages/department/department_introduce",
+			"style": {
+				"navigationBarTitleText": "科室介绍"
+			}
+		}, {
+			"path": "pages/department/department",
+			"style": {
+				"navigationBarTitleText": "科室列表"
+			}
+		}, {
+			"path": "pages/doctor/doctor_introduce",
+			"style": {
+				"navigationBarTitleText": "医生介绍"
+			}
+		}, {
+			"path": "pages/doctor/doctor",
+			"style": {
+				"navigationBarTitleText": "医生介绍"
+			}
+		}, {
+			"path": "pages/doctor/doctorDetails_introduce",
+			"style": {
+				"navigationBarTitleText": "医生介绍"
+			}
+		}, {
+			"path": "pages/doctor/doctorDetails",
+			"style": {
+				"navigationBarTitleText": "医生介绍"
+			}
+		}, {
+			"path": "pages/doctor/doctorDetailsChoice",
+			"style": {
+				"navigationBarTitleText": "预约挂号医生",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/consult/consultList",
+			"style": {
+				"navigationBarTitleText": "我的看诊记录",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/consult/consultDetails",
+			"style": {
+				"navigationBarTitleText": "处方详情"
+			}
+		}, {
+			"path": "pages/payRecord/payRecord",
+			"style": {
+				"navigationBarTitleText": "门诊缴费记录",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/payRecord/payRecordDetails",
+			"style": {
+				"navigationBarTitleText": "门诊缴费详情",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/payRecord/payPayment",
+			"style": {
+				"navigationBarTitleText": "门诊缴费",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/clinic/clinic",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/patient/patientAdd",
+			"style": {
+				"navigationBarTitleText": "添加就诊人"
+			}
+		}, {
+			"path": "pages/patient/patientEdit",
+			"style": {
+				"navigationBarTitleText": "修改就诊人"
+			}
+		},
+		{
+			"path": "pages/payRecord/payResult",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/kefu/kefu_introduce",
+			"style": {
+				"navigationBarTitleText": "选择客服"
+			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "在线咨询",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/payRecord/payResultForRegister",
+			"style": {
+
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pagewz",
+		"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "凯蒙中医院",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/prescription/prescription",
+			"style": {}
+		}, {
+			"path": "pages/findAdoctor/findAdoctor",
+			"style": {}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}, {
+			"path": "pages/scienceDetails/scienceDetails",
+			"style": {}
+		}, {
+			"path": "pages/conditionDescription/conditionDescription",
+			"style": {}
+		}]
+	}],
+	"tabBar": {
+		"color": "#969696",
+		"selectedColor": "#969696",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "医疗服务",
+			"iconPath": "static/img/tab01.png",
+			"selectedIconPath": "static/img/tab01h.png"
+		}, {
+			"pagePath": "pages/home/hospitalInfo",
+			"text": "医院信息",
+			"iconPath": "static/img/tab03.png",
+			"selectedIconPath": "static/img/tab03h.png"
+		}, {
+			"pagePath": "pages/my/mycenter",
+			"text": "个人中心",
+			"iconPath": "static/img/tab04.png",
+			"selectedIconPath": "static/img/tab04h.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#00C09F"
+	}
+}

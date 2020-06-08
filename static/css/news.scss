@@ -1,0 +1,28 @@
+@mixin ellipsiso { display: block; overflow: hidden; white-space: nowrap; -o-text-overflow: ellipsis; text-overflow: ellipsis; }
+@mixin ellipsiss($num1, $num2) { line-height: $num2 + rpx; overflow: hidden; display: -webkit-box; height: $num1*$num2 + rpx;
+ -webkit-line-clamp: $num1; -webkit-box-orient: vertical; }
+page{ background:#fff;}
+.content{ padding: 0}
+.clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block; display:block; zoom:1;}
+.pad030{ padding-left: 30rpx; padding-right: 30rpx;}
+.bgf4f4f4{ background: #f4f4f4;}
+.btb{ border-bottom: 1px solid #ececec; border-top: 1px solid #ececec;}
+// @import "@/static/test.scss";
+.news_list{
+    navigator{ padding: 24rpx 30rpx; border-bottom: 1px dashed #e5e5e5;}
+	navigator > image{ display: block; float: left; width: 160rpx; height: 160rpx;}
+}
+.news_list_right{ margin-left: 200rpx; padding-top: 12rpx;}
+.news_list_title{ font-size: 28rpx; color: #2d2d2d; font-weight: bold;
+	@include ellipsiss(2,38)
+}
+.news_list_time{ line-height: 68rpx; padding-top: 4rpx; font-size: 24rpx; color: #bbbbbb;
+	image{ width: 28rpx; height: 15rpx; margin-left: 28rpx;}
+}
+//
+.xwdt_title{ font-size: 36rpx; font-weight: bold; color: #2d2d2d; border-bottom: 1px solid #e8e8e8; line-height: 50rpx; padding: 36rpx 30rpx 14rpx 30rpx;}
+.xwdt_time{ line-height: 64rpx; font-size: 26rpx; color: #bbbbbb; padding: 0 30rpx;
+	text{ display: block; float: right;}
+}
+.xwdt_box{ font-size: 24rpx; line-height: 2.2em; padding:15rpx 30rpx;}

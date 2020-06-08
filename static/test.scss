@@ -1,0 +1,8 @@
+@mixin ellipsiso { display: block; overflow: hidden; white-space: nowrap; -o-text-overflow: ellipsis; text-overflow: ellipsis; }
+@mixin ellipsiss($num1, $num2) { line-height: $num2 + rpx; overflow: hidden; display: -webkit-box; height: $num1*$num2 + rpx;
+ -webkit-line-clamp: $num1; -webkit-box-orient: vertical; }
+ page{ background:#f4f4f4;}
+.content{ padding: 30rpx;}
+.clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block; display:block; zoom:1;}
+// @import "@/static/test.scss";
