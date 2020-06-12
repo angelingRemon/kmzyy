@@ -256,29 +256,73 @@
 	"subPackages": [{
 		"root": "pagewz",
 		"pages": [{
-			"path": "pages/home/home",
-			"style": {
-				"navigationBarTitleText": "凯蒙中医院",
-				"app-plus": {
-					"titleNView": false
+				"path": "pages/home/home",
+				"style": {
+					"navigationBarTitleText": "凯蒙中医院",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			},
+			{
+				"path": "pages/healthScience/healthScience",
+				"style": {
+					"navigationBarTitleText": "健康科普",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			},
+			{
+				"path": "pages/prescription/prescription",
+				"style": {
+					"navigationBarTitleText": "凯蒙中医院",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}, {
+				"path": "pages/findAdoctor/findAdoctor",
+				"style": {
+					"navigationBarTitleText": "凯蒙中医院",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}, {
+				"path": "pages/my/my",
+				"style": {
+					"navigationBarTitleText": "凯蒙中医院",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}, {
+				"path": "pages/scienceDetails/scienceDetails",
+				"style": {
+					"navigationBarTitleText": "凯蒙中医院",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}, {
+				"path": "pages/conditionDescription/conditionDescription",
+				"style": {
+					"navigationBarTitleText": "健康科普",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}, {
+				"path": "pages/qaDetail/qaDetail",
+				"style": {
+					"navigationBarTitleText": "问答详情",
+					"app-plus": {
+						"titleNView": false
+					}
 				}
 			}
-		}, {
-			"path": "pages/prescription/prescription",
-			"style": {}
-		}, {
-			"path": "pages/findAdoctor/findAdoctor",
-			"style": {}
-		}, {
-			"path": "pages/my/my",
-			"style": {}
-		}, {
-			"path": "pages/scienceDetails/scienceDetails",
-			"style": {}
-		}, {
-			"path": "pages/conditionDescription/conditionDescription",
-			"style": {}
-		}]
+		]
 	}],
 	"tabBar": {
 		"color": "#969696",
